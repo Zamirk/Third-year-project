@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="1110" height="30" tilewidth="36" tileheight="36" nextobjectid="4507">
+ <tileset firstgid="1" name="PixelArtTest" tilewidth="36" tileheight="36" tilecount="80" columns="10">
+  <image source="../PixelArtTest2.png" trans="ffff00" width="360" height="288"/>
+ </tileset>
+ <layer name="Black" width="1110" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6EzUP92Z2JPSFg1VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVXVhwc+zJtf
+  </data>
+ </layer>
+ <layer name="BackGround" width="1110" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt3M1OGzEUBlBLNFI3NMuIwopWvP8j8GhNVKxajmfGphnszJzFEcLzk+tZgPXleh5CCA8rO509cre+V/rs/X/MHPs2wPwBYC8OA9QAADUOifz3JbeuZe1MRa6yDWtlKgDAWGQrANyDmJEcs59Las5rrUWuQq01M5VSz4peFQD4enG92buOUfX4HhSAa6V85DhhLmOZO15bi1yFFvpUAGD7ZCvzz2ZqrR7HetcIsBdzGcpUxlKTs7T+PZerAACQS9edvWsZWb6G710PwB7N5SelfUI1WUvL3/TTF+n9nAEAaBPXmr9CeO9dy8j0qQCMZa5XJc9cpq7pPQcAALbjSa4CwB3Ke1XS8WNh/DHoPwQAAACI8n0+cTx/b20+3rtuAAAAgFFMvWs83/cjUwEAAAC4NpeleE87AAAAQLu97v0JA9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABw8bDgNECNAAAAAKN5Dsu5imwFAAAA4FpNphI9D1AvjOhpgBoAuE/HEN6j3rUAAG1qe1Wi3vVCT08zfi0c7107AOtKs5GLl/NY7jJ+yPKT/Lre8wAA2rRkKnIV1vYzjJdB5NnJZ8lbAO5PKRtJM5LUIZEfewv/MpU0VyldX1PX6XzeF+j+/AHgHrTmKqfgPSvcXlxT/g5/M4iaa04LblXb/2QptXlL7+cPsBe1GUmtNEu5ZCdvhXuVcpape9TO47wme1+b9R4A1HkNchX6Kn1Ht4ceqTRb6V0LwB7M9Z6Uek0OFfLPyHOUQ8W9Hj8+v2UuchUAGItchV6Ooe37ua3TuwKwjjxHeUu8ZOfN9ZbE85Z6T6b6UaZ6V1rnI1cBgLG05iq962UbZCrX0t4VGQvA7aXZShxLs5Wl3pKW/UGlnGWqL6Z1HnIVABhLbaby+qF3vWyDTGWe/UEA68mzlWgpT6nZG1Ta2zOVy3z2f6FcBQDG85yYylV618h2yFQA6K2Uq0xpfa/s1PVL72ep9Qe635kt
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="1110" height="30">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Borders">
+  <object id="220" x="0" y="0" width="936" height="216"/>
+  <object id="221" x="0" y="864" width="936" height="216"/>
+  <object id="2804" x="17496" y="612" width="468" height="468"/>
+  <object id="2809" x="17460" y="144" width="36" height="144"/>
+  <object id="2810" x="17496" y="144" width="36" height="108"/>
+  <object id="2811" x="17532" y="144" width="36" height="72"/>
+  <object id="2812" x="17568" y="108" width="36" height="72"/>
+  <object id="2813" x="17604" y="108" width="36" height="108"/>
+  <object id="2814" x="17640" y="108" width="36" height="144"/>
+  <object id="2815" x="17676" y="108" width="36" height="180"/>
+  <object id="2816" x="17712" y="108" width="36" height="144"/>
+  <object id="2818" x="17748" y="108" width="180" height="108"/>
+  <object id="2819" x="17820" y="216" width="108" height="36"/>
+  <object id="2821" x="17856" y="252" width="36" height="72"/>
+  <object id="2822" x="17892" y="252" width="36" height="36"/>
+  <object id="2823" x="17928" y="108" width="36" height="108"/>
+  <object id="2824" x="17964" y="0" width="36" height="180"/>
+  <object id="3389" x="23472" y="0" width="1944" height="216"/>
+  <object id="3390" x="23328" y="864" width="2340" height="216"/>
+  <object id="3392" x="25668" y="936" width="72" height="144"/>
+  <object id="3405" x="28656" y="936" width="72" height="144"/>
+  <object id="3407" x="28728" y="1008" width="1512" height="72"/>
+  <object id="3410" x="33192" y="936" width="5040" height="144"/>
+  <object id="3411" x="30240" y="972" width="2952" height="108"/>
+  <object id="3413" x="37764" y="0" width="684" height="180"/>
+  <object id="3414" x="38592" y="0" width="540" height="324"/>
+  <object id="3415" x="38592" y="792" width="576" height="288"/>
+  <object id="3416" x="38196" y="864" width="432" height="216"/>
+  <object id="3417" x="38448" y="0" width="144" height="108"/>
+  <object id="3418" x="37692" y="0" width="72" height="144"/>
+  <object id="3420" x="36180" y="0" width="1512" height="72"/>
+  <object id="3421" x="36036" y="0" width="144" height="108"/>
+  <object id="3422" x="36036" y="108" width="72" height="36"/>
+  <object id="3423" x="35280" y="0" width="648" height="252"/>
+  <object id="3424" x="35928" y="0" width="108" height="180"/>
+  <object id="3425" x="33552" y="0" width="1728" height="144"/>
+  <object id="3426" x="35208" y="144" width="72" height="72"/>
+  <object id="3427" x="32688" y="0" width="648" height="288"/>
+  <object id="3428" x="33336" y="0" width="216" height="180"/>
+  <object id="3429" x="32580" y="0" width="108" height="216"/>
+  <object id="3431" x="30420" y="0" width="2160" height="180"/>
+  <object id="3432" x="30312" y="0" width="108" height="108"/>
+  <object id="3437" x="28620" y="108" width="36" height="36"/>
+  <object id="3439" x="28584" y="0" width="1728" height="72"/>
+  <object id="3440" x="25416" y="36" width="1908" height="36"/>
+  <object id="3441" x="27252" y="108" width="36" height="36"/>
+  <object id="3443" x="25452" y="108" width="36" height="36"/>
+  <object id="3444" x="2484" y="972" width="36" height="108"/>
+  <object id="3445" x="2520" y="900" width="36" height="72"/>
+  <object id="3450" x="2592" y="828" width="216" height="36"/>
+  <object id="3452" x="2808" y="864" width="36" height="36"/>
+  <object id="3453" x="2844" y="900" width="36" height="36"/>
+  <object id="3455" x="2880" y="936" width="36" height="36"/>
+  <object id="3457" x="2916" y="972" width="36" height="36"/>
+  <object id="3458" x="2952" y="1008" width="144" height="36"/>
+  <object id="3460" x="3096" y="1044" width="72" height="36"/>
+  <object id="3461" x="3168" y="1008" width="108" height="36"/>
+  <object id="3462" x="3276" y="972" width="180" height="36"/>
+  <object id="3464" x="3564" y="936" width="108" height="36"/>
+  <object id="3465" x="3492" y="1008" width="36" height="36"/>
+  <object id="3466" x="3672" y="1008" width="36" height="36"/>
+  <object id="3467" x="3708" y="1008" width="72" height="36"/>
+  <object id="3469" x="4068" y="900" width="108" height="36"/>
+  <object id="3471" x="3996" y="972" width="72" height="36"/>
+  <object id="3473" x="3960" y="1044" width="36" height="36"/>
+  <object id="3474" x="3780" y="1080" width="180"/>
+  <object id="3478" x="2556" y="0" width="36" height="216"/>
+  <object id="3480" x="2628" y="216" width="216" height="36"/>
+  <object id="3481" x="2844" y="180" width="36" height="36"/>
+  <object id="3482" x="2880" y="144" width="36" height="36"/>
+  <object id="3483" x="2916" y="108" width="144" height="36"/>
+  <object id="3484" x="3060" y="72" width="144" height="36"/>
+  <object id="3485" x="3204" y="36" width="72" height="36"/>
+  <object id="3486" x="3276" y="72" width="36" height="36"/>
+  <object id="3487" x="3312" y="108" width="36" height="36"/>
+  <object id="3488" x="3348" y="144" width="144" height="36"/>
+  <object id="3489" x="3492" y="108" width="36" height="36"/>
+  <object id="3494" x="3528" y="72" width="72" height="36"/>
+  <object id="3495" x="3600" y="36" width="108" height="36"/>
+  <object id="3497" x="3708" y="72" width="36" height="36"/>
+  <object id="3498" x="3744" y="36" width="180" height="36"/>
+  <object id="3499" x="3924" y="72" width="72" height="36"/>
+  <object id="3500" x="3996" y="108" width="72" height="36"/>
+  <object id="3501" x="4068" y="144" width="36" height="36"/>
+  <object id="3503" x="4104" y="108" width="36" height="36"/>
+  <object id="3505" x="4140" y="72" width="36" height="36"/>
+  <object id="3507" x="4176" y="36" width="36" height="36"/>
+  <object id="3508" x="4212" y="0" width="72" height="36"/>
+  <object id="3510" x="4284" y="36" width="72" height="36"/>
+  <object id="3512" x="4356" y="0" width="72" height="36"/>
+  <object id="3513" x="4428" y="36" width="144" height="36"/>
+  <object id="3514" x="4572" y="72" width="36" height="36"/>
+  <object id="3517" x="4608" y="108" width="72" height="36"/>
+  <object id="3518" x="4680" y="144" width="72" height="36"/>
+  <object id="3521" x="4752" y="108" width="72" height="36"/>
+  <object id="3522" x="4824" y="72" width="72" height="36"/>
+  <object id="3523" x="4896" y="36" width="72" height="36"/>
+  <object id="3524" x="4968" y="72" width="36" height="36"/>
+  <object id="3526" x="5040" y="144" width="144" height="36"/>
+  <object id="3527" x="4176" y="972" width="288" height="36"/>
+  <object id="3528" x="4500" y="1008" width="108" height="36"/>
+  <object id="3531" x="4608" y="972" width="612" height="36"/>
+  <object id="3532" x="5256" y="1008" width="72" height="36"/>
+  <object id="3533" x="5364" y="972" width="36" height="36"/>
+  <object id="3536" x="5400" y="936" width="108" height="36"/>
+  <object id="3537" x="5184" y="108" width="36" height="36"/>
+  <object id="3539" x="5220" y="72" width="36" height="36"/>
+  <object id="3540" x="5256" y="0" width="108" height="36"/>
+  <object id="3541" x="5436" y="108" width="144" height="36"/>
+  <object id="3542" x="5580" y="72" width="36" height="36"/>
+  <object id="3543" x="5616" y="72" width="36" height="36"/>
+  <object id="3544" x="5724" y="72" width="72" height="36"/>
+  <object id="3545" x="5796" y="108" width="288" height="36"/>
+  <object id="3548" x="5508" y="972" width="36" height="72"/>
+  <object id="3550" x="5580" y="1044" width="36"/>
+  <object id="3551" x="5544" y="1008" width="108" height="36"/>
+  <object id="3552" x="5652" y="1044" width="108" height="36"/>
+  <object id="3553" x="5760" y="1008" width="72" height="36"/>
+  <object id="3554" x="5832" y="972" width="72" height="36"/>
+  <object id="3556" x="5904" y="936" width="180" height="36"/>
+  <object id="3558" x="6120" y="972" width="144" height="36"/>
+  <object id="3559" x="6300" y="972" width="36" height="36"/>
+  <object id="3562" x="6372" y="900" width="36" height="36"/>
+  <object id="3563" x="6624" y="972" width="216" height="36"/>
+  <object id="3564" x="6444" y="972" width="72" height="36"/>
+  <object id="3565" x="6840" y="936" width="108" height="36"/>
+  <object id="3566" x="6084" y="72" width="252" height="36"/>
+  <object id="3568" x="6408" y="72" width="180" height="36"/>
+  <object id="3569" x="6660" y="72" width="252" height="36"/>
+  <object id="3570" x="7020" y="72" width="180" height="36"/>
+  <object id="3571" x="6912" y="36" width="108" height="36"/>
+  <object id="3572" x="6948" y="1008" width="72" height="36"/>
+  <object id="3573" x="7128" y="1008" width="72" height="36"/>
+  <object id="3574" x="7236" y="900" width="108" height="36"/>
+  <object id="3575" x="7200" y="972" width="36" height="36"/>
+  <object id="3576" x="7344" y="972" width="72" height="72"/>
+  <object id="3577" x="7488" y="972" width="108" height="36"/>
+  <object id="3578" x="7596" y="1044" width="1044" height="36"/>
+  <object id="3579" x="7164" y="0" width="1512" height="36"/>
+  <object id="3581" x="8676" y="1008" width="108" height="36"/>
+  <object id="3584" x="8784" y="972" width="72" height="36"/>
+  <object id="3585" x="8856" y="936" width="180" height="36"/>
+  <object id="3586" x="8676" y="36" width="72" height="36"/>
+  <object id="3587" x="8748" y="72" width="72" height="36"/>
+  <object id="3588" x="8820" y="108" width="72" height="36"/>
+  <object id="3589" x="8892" y="144" width="72" height="36"/>
+  <object id="3591" x="9072" y="1008" width="36" height="36"/>
+  <object id="3592" x="9036" y="972" width="36" height="36"/>
+  <object id="3593" x="9108" y="1044" width="72" height="36"/>
+  <object id="3597" x="9180" y="1008" width="36" height="36"/>
+  <object id="3598" x="9216" y="972" width="72" height="36"/>
+  <object id="3599" x="9288" y="936" width="72" height="36"/>
+  <object id="3600" x="9360" y="900" width="36" height="36"/>
+  <object id="3605" x="9396" y="828" width="36" height="72"/>
+  <object id="3606" x="9432" y="792" width="36" height="36"/>
+  <object id="3607" x="9468" y="756" width="72" height="36"/>
+  <object id="3608" x="8964" y="108" width="108" height="36"/>
+  <object id="3611" x="9072" y="72" width="72" height="36"/>
+  <object id="3613" x="9144" y="36" width="216" height="36"/>
+  <object id="3614" x="22104" y="1008" width="1188" height="72"/>
+  <object id="3615" x="23256" y="936" width="36" height="36"/>
+  <object id="3616" x="22176" y="0" width="1152" height="72"/>
+  <object id="3617" x="21996" y="72" width="144" height="72"/>
+  <object id="3618" x="21888" y="144" width="72" height="72"/>
+  <object id="3619" x="21888" y="828" width="108" height="108"/>
+  <object id="3620" x="21996" y="900" width="108" height="108"/>
+  <object id="3622" x="21456" y="828" width="72" height="72"/>
+  <object id="3625" x="21564" y="936" width="72" height="72"/>
+  <object id="3626" x="21744" y="936" width="72" height="72"/>
+  <object id="3627" x="21816" y="900" width="72" height="72"/>
+  <object id="3628" x="21384" y="900" width="72" height="72"/>
+  <object id="3629" x="21348" y="936" width="36" height="36"/>
+  <object id="3630" x="20880" y="972" width="504" height="72"/>
+  <object id="3631" x="21420" y="0" width="216" height="72"/>
+  <object id="3632" x="21636" y="72" width="72" height="72"/>
+  <object id="3633" x="21708" y="108" width="180" height="72"/>
+  <object id="3634" x="20736" y="936" width="144" height="72"/>
+  <object id="3635" x="20628" y="864" width="108" height="72"/>
+  <object id="3639" x="20484" y="900" width="144" height="72"/>
+  <object id="3640" x="20376" y="936" width="108" height="72"/>
+  <object id="3641" x="20376" y="972" height="36"/>
+  <object id="3642" x="19980" y="900" width="180" height="72"/>
+  <object id="3643" x="20160" y="936" width="72" height="72"/>
+  <object id="3644" x="20232" y="972" width="72" height="72"/>
+  <object id="3647" x="19908" y="144" width="72" height="72"/>
+  <object id="3648" x="19980" y="108" width="72" height="72"/>
+  <object id="3649" x="20052" y="72" width="72" height="72"/>
+  <object id="3650" x="20124" y="72" width="108" height="36"/>
+  <object id="3651" x="20268" y="36" width="144" height="36"/>
+  <object id="3652" x="20448" y="0" width="216" height="36"/>
+  <object id="3653" x="20664" y="36" width="72" height="72"/>
+  <object id="3654" x="20736" y="36" width="72" height="36"/>
+  <object id="3655" x="20808" y="0" width="252" height="36"/>
+  <object id="3657" x="21060" y="36" width="72" height="36"/>
+  <object id="3658" x="21132" y="72" width="72" height="36"/>
+  <object id="3659" x="21204" y="108" width="72" height="36"/>
+  <object id="3660" x="21312" y="108" width="72" height="36"/>
+  <object id="3661" x="18837.3" y="936" width="150.667" height="50.6667"/>
+  <object id="3662" x="19012" y="953.333" width="25.3333" height="44"/>
+  <object id="3663" x="19054.7" y="1014.67" width="228" height="28"/>
+  <object id="3664" x="19306.7" y="977.333" width="45.3333" height="18.6667"/>
+  <object id="3665" x="19354.7" y="945.333" width="50.6667" height="18.6667"/>
+  <object id="3666" x="19421.3" y="916" width="52" height="14.6667"/>
+  <object id="3667" x="19492" y="945.333" width="53.3333" height="20"/>
+  <object id="3668" x="19564" y="981.333" width="13.3333" height="22.6667"/>
+  <object id="3669" x="19596" y="1016" width="184" height="26.6667"/>
+  <object id="3670" x="19797.3" y="976" width="141.333" height="32"/>
+  <object id="3671" x="19622.7" y="72" width="218.667" height="36"/>
+  <object id="3672" x="19853.3" y="118.667" width="44" height="36"/>
+  <object id="3673" x="19309.3" y="33.3333" width="305.333" height="33.3333"/>
+  <object id="3674" x="19126.7" y="102.667" width="128" height="25.3333"/>
+  <object id="3675" x="19014.7" y="153.333" width="93.3333" height="18.6667"/>
+  <object id="3676" x="18845.3" y="181.333" width="134.667" height="26.6667"/>
+  <object id="3678" x="18756" y="144" width="57.3333" height="25.3333"/>
+  <object id="3679" x="18724" y="97.3333" width="28" height="38.6667"/>
+  <object id="3680" x="18692" y="70.6667" width="21.3333" height="32"/>
+  <object id="3681" x="18630.7" y="44" width="36" height="28"/>
+  <object id="3682" x="18612" y="68" width="21.3333" height="29.3333"/>
+  <object id="3683" x="18576" y="105.333" width="20" height="25.3333"/>
+  <object id="3684" x="18537.3" y="146.667" width="34.6667" height="21.3333"/>
+  <object id="3685" x="18585.3" y="984" width="194.667" height="24"/>
+  <object id="3686" x="18768" y="945.333" width="45.3333" height="24"/>
+  <object id="3687" x="18406.7" y="176" width="82.6667" height="28"/>
+  <object id="3688" x="18314.7" y="116" width="77.3333" height="38.6667"/>
+  <object id="3689" x="18233.3" y="60" width="81.3333" height="45.3333"/>
+  <object id="3690" x="18142.7" y="84" width="37.3333" height="28"/>
+  <object id="3691" x="17998.7" y="138.667" width="125.333" height="37.3333"/>
+  <object id="3692" x="17974.7" y="646.667" width="86.6667" height="50.6667"/>
+  <object id="3694" x="18084" y="752" width="149.333" height="36"/>
+  <object id="3695" x="18252" y="748" width="62.6667" height="41.3333"/>
+  <object id="3696" x="18321.3" y="810.667" width="37.3333" height="88"/>
+  <object id="3697" x="18369.3" y="918.667" width="14.6667" height="54.6667"/>
+  <object id="3698" x="18396" y="992" width="40" height="49.3333"/>
+  <object id="3699" x="18441.3" y="1045.33" width="88" height="25.3333"/>
+  <object id="3701" x="17314.7" y="238.667" width="110.667" height="73.3333"/>
+  <object id="3702" x="17429.3" y="661.333" width="52" height="44"/>
+  <object id="3703" x="17394.7" y="730.667" width="34.6667" height="53.3333"/>
+  <object id="3704" x="17249.3" y="808" width="134.667" height="34.6667"/>
+  <object id="3705" x="17190.7" y="864" width="52" height="90.6667"/>
+  <object id="3706" x="16957.3" y="852" width="69.3333" height="65.3333"/>
+  <object id="3707" x="17040" y="925.333" width="25.3333" height="74.6667"/>
+  <object id="3708" x="17085.3" y="986.667" width="26.6667" height="50.6667"/>
+  <object id="3709" x="16809.3" y="940" width="98.6667" height="46.6667"/>
+  <object id="3710" x="16782.7" y="101.333" width="197.333" height="66.6667"/>
+  <object id="3711" x="16989.3" y="94.6667" width="89.3333" height="34.6667"/>
+  <object id="3712" x="17102.7" y="129.333" width="93.3333" height="60"/>
+  <object id="3713" x="17208" y="198.667" width="85.3333" height="56"/>
+  <object id="3714" x="17196" y="1081.33"/>
+  <object id="3715" x="16550.7" y="1009.33" width="241.333" height="48"/>
+  <object id="3718" x="16236" y="900" width="72" height="36"/>
+  <object id="3719" x="16308" y="936" width="36" height="72"/>
+  <object id="3720" x="16380" y="1008" width="72" height="36"/>
+  <object id="3721" x="16488" y="36" width="144" height="72"/>
+  <object id="3722" x="16640" y="100" width="144" height="36"/>
+  <object id="3723" x="16092" y="0" width="396" height="36"/>
+  <object id="3724" x="16180" y="944" width="36" height="36"/>
+  <object id="3725" x="15372" y="972" width="180" height="36"/>
+  <object id="3726" x="15552" y="1008" width="72" height="36"/>
+  <object id="3727" x="15624" y="1044" width="288" height="36"/>
+  <object id="3730" x="15984" y="1008" width="36" height="36"/>
+  <object id="3731" x="16020" y="972" width="144" height="36"/>
+  <object id="3732" x="15588" y="72" width="504" height="36"/>
+  <object id="3733" x="15480" y="36" width="108" height="36"/>
+  <object id="3734" x="15264" y="0" width="180" height="36"/>
+  <object id="3735" x="14940" y="72" width="180" height="36"/>
+  <object id="3736" x="14832" y="72" width="36" height="36"/>
+  <object id="3737" x="14724" y="36" width="72" height="36"/>
+  <object id="3738" x="14256" y="108" width="144" height="36"/>
+  <object id="3739" x="14796" y="936" width="252" height="36"/>
+  <object id="3740" x="15084" y="1008" width="180" height="36"/>
+  <object id="3742" x="14472" y="936" width="144" height="36"/>
+  <object id="3743" x="14688" y="972" width="72" height="36"/>
+  <object id="3744" x="14436" y="72" width="36" height="36"/>
+  <object id="3745" x="14472" y="36" width="36" height="36"/>
+  <object id="3746" x="14364" y="972" width="108" height="36"/>
+  <object id="3749" x="14328" y="1008" width="36" height="36"/>
+  <object id="3750" x="14076" y="1044" width="252" height="36"/>
+  <object id="3751" x="13716" y="72" width="144" height="36"/>
+  <object id="3752" x="13896" y="36" width="72" height="36"/>
+  <object id="3753" x="14148" y="36" width="72" height="36"/>
+  <object id="3754" x="13968" y="0" width="108" height="36"/>
+  <object id="3755" x="14508" y="0" width="144" height="36"/>
+  <object id="3756" x="13392" y="72" width="72" height="72"/>
+  <object id="3757" x="13500" y="72" width="72" height="36"/>
+  <object id="3758" x="12996" y="72" width="108" height="36"/>
+  <object id="3760" x="12708" y="1044" width="1296" height="36"/>
+  <object id="3761" x="12924" y="1008" width="1008" height="36"/>
+  <object id="3762" x="12960" y="36" width="144" height="72"/>
+  <object id="3763" x="13356" y="36" width="216" height="72"/>
+  <object id="3764" x="13716" y="36" width="144" height="72"/>
+  <object id="3765" x="13572" y="36" width="144" height="36"/>
+  <object id="3766" x="12780" y="0" width="1260" height="36"/>
+  <object id="3767" x="11988" y="1008" width="324" height="36"/>
+  <object id="3768" x="12348" y="972" width="72" height="36"/>
+  <object id="3769" x="12456" y="1008" width="36" height="36"/>
+  <object id="3771" x="12492" y="1044" width="216" height="36"/>
+  <object id="3772" x="12312" y="108" width="108" height="72"/>
+  <object id="3773" x="12420" y="180" width="72" height="36"/>
+  <object id="3774" x="12492" y="144" width="36" height="36"/>
+  <object id="3775" x="12528" y="108" width="72" height="72"/>
+  <object id="3776" x="12600" y="108" width="108" height="36"/>
+  <object id="3777" x="11700" y="144" width="144" height="72"/>
+  <object id="3778" x="11844" y="108" width="36" height="36"/>
+  <object id="3779" x="11880" y="72" width="36" height="72"/>
+  <object id="3780" x="11916" y="72" width="72" height="36"/>
+  <object id="3781" x="11988" y="36" width="72" height="36"/>
+  <object id="3782" x="12096" y="0" width="108" height="36"/>
+  <object id="3784" x="12204" y="36" width="36" height="36"/>
+  <object id="3785" x="12240" y="72" width="72" height="36"/>
+  <object id="3786" x="11628" y="972" width="180" height="36"/>
+  <object id="3787" x="11808" y="1008" width="36" height="36"/>
+  <object id="3788" x="11844" y="1044" width="108" height="36"/>
+  <object id="3789" x="11340" y="900" width="108" height="72"/>
+  <object id="3790" x="11484" y="936" width="36" height="36"/>
+  <object id="3791" x="11556" y="108" width="108" height="36"/>
+  <object id="3792" x="11412" y="0" width="108" height="36"/>
+  <object id="3793" x="10584" y="972" width="252" height="36"/>
+  <object id="3794" x="10872" y="1008" width="36" height="36"/>
+  <object id="3795" x="10980" y="1008" width="108" height="36"/>
+  <object id="3796" x="11124" y="972" width="72" height="36"/>
+  <object id="3797" x="11232" y="936" width="72" height="36"/>
+  <object id="3798" x="10908" y="72" width="108" height="36"/>
+  <object id="3799" x="11016" y="108" width="108" height="36"/>
+  <object id="3802" x="11124" y="108" width="36" height="36"/>
+  <object id="3803" x="11160" y="72" width="108" height="36"/>
+  <object id="3804" x="11268" y="36" width="108" height="36"/>
+  <object id="3805" x="10404" y="180" width="36" height="36"/>
+  <object id="3807" x="10116" y="144" width="144"/>
+  <object id="3808" x="9540" y="864" width="36" height="36"/>
+  <object id="3809" x="9576" y="900" width="36" height="36"/>
+  <object id="3810" x="9612" y="972" width="72"/>
+  <object id="3811" x="9684" y="1008" width="36"/>
+  <object id="3812" x="9720" y="972" width="36"/>
+  <object id="3813" x="9756" y="936" width="36"/>
+  <object id="3814" x="9792" y="900" width="36"/>
+  <object id="3815" x="9828" y="936" width="72"/>
+  <object id="3816" x="9900" y="972" width="36"/>
+  <object id="3818" x="9936" y="1008" width="36"/>
+  <object id="3819" x="9972" y="1044" width="72"/>
+  <object id="3820" x="10080" y="1008" width="72"/>
+  <object id="3821" x="10296" y="756" width="36"/>
+  <object id="3822" x="10260" y="864" width="36"/>
+  <object id="3823" x="10224" y="936" width="36"/>
+  <object id="3824" x="10152" y="972" width="72"/>
+  <object id="3825" x="10260" y="864" width="36" height="72"/>
+  <object id="3826" x="10296" y="756" width="36" height="108"/>
+  <object id="3828" x="10332" y="828" width="36" height="144"/>
+  <object id="3830" x="10404" y="1008" width="180" height="36"/>
+  <object id="3831" x="10296" y="72" width="72" height="36"/>
+  <object id="3832" x="10404" y="72" width="36" height="72"/>
+  <object id="3833" x="10476" y="36" width="144" height="36"/>
+  <object id="3834" x="10620" y="108" width="72" height="72"/>
+  <object id="3835" x="10692" y="36" width="180" height="36"/>
+  <object id="3836" x="9360" y="36" width="684" height="36"/>
+  <object id="3837" x="1080" y="0" width="1476"/>
+  <object id="3840" x="1008" y="1080" width="1332"/>
+  <object id="3841" x="2340" y="1080" width="108"/>
+  <object id="3846" x="72" y="252" width="36" height="576"/>
+ </objectgroup>
+ <objectgroup name="Enemy Barrier">
+  <object id="199" x="7164" y="0" width="1508" height="36"/>
+  <object id="203" x="7164" y="1044" width="1492" height="36"/>
+  <object id="1753" x="12726" y="1044" width="1306" height="36"/>
+  <object id="1754" x="12740" y="0" width="1150" height="36"/>
+  <object id="2842" x="17568" y="684" width="288" height="36"/>
+  <object id="2843" x="17604" y="1044" width="288" height="36"/>
+  <object id="4409" x="36216" y="36" width="1440" height="36"/>
+  <object id="4410" x="36108" y="936" width="1620" height="36"/>
+  <object id="4438" x="33804" y="108" width="144" height="36"/>
+  <object id="4439" x="33768" y="936" width="252" height="36"/>
+ </objectgroup>
+ <objectgroup name="EnAlpha">
+  <object id="83" x="6192" y="900" width="36" height="36"/>
+  <object id="95" x="6336" y="792" width="36" height="36"/>
+  <object id="99" x="6336" y="252" width="36" height="36"/>
+  <object id="102" x="6192" y="144" width="36" height="36"/>
+  <object id="104" x="6444" y="396" width="36" height="36"/>
+  <object id="105" x="6444" y="648" width="36" height="36"/>
+  <object id="1820" x="16214.9" y="108" width="36" height="36"/>
+  <object id="1822" x="16106.9" y="396" width="36" height="36"/>
+  <object id="1824" x="16250.9" y="684" width="36" height="36"/>
+  <object id="1825" x="16070.9" y="864" width="36" height="36"/>
+  <object id="1826" x="13734" y="540"/>
+  <object id="2283" x="2520" y="252" width="36" height="36"/>
+  <object id="2284" x="2772" y="108" width="36" height="36"/>
+  <object id="2287" x="2916" y="288" width="36" height="36"/>
+  <object id="2339" x="5976" y="324" width="36" height="36"/>
+  <object id="2340" x="5652" y="216" width="36" height="36"/>
+  <object id="2342" x="5904" y="792" width="36" height="36"/>
+  <object id="2563" x="4860" y="972" width="36" height="36"/>
+  <object id="2636" x="16524" y="396" width="36" height="36"/>
+  <object id="2650" x="16848" y="216" width="36" height="36"/>
+  <object id="2651" x="16956" y="540" width="36" height="36"/>
+  <object id="2652" x="16416" y="900" width="36" height="36"/>
+  <object id="2728" x="10404" y="288" width="36" height="36"/>
+  <object id="2729" x="10620" y="288" width="36" height="36"/>
+  <object id="2730" x="10620" y="504" width="36" height="36"/>
+  <object id="2731" x="10404" y="504" width="36" height="36"/>
+  <object id="2733" x="10404" y="720" width="36" height="36"/>
+  <object id="2734" x="10620" y="720" width="36" height="36"/>
+  <object id="3847" x="24732" y="324"/>
+  <object id="3862" x="24732" y="432"/>
+  <object id="3863" x="24732" y="540"/>
+  <object id="3864" x="24732" y="648"/>
+  <object id="3873" x="25488" y="540"/>
+  <object id="3874" x="25488" y="432"/>
+  <object id="3985" x="27360" y="252"/>
+  <object id="3987" x="27720" y="252"/>
+  <object id="3988" x="28080" y="252"/>
+  <object id="3989" x="28548" y="396" width="36" height="36"/>
+  <object id="3999" x="28980" y="828" width="36" height="36"/>
+  <object id="4006" x="28980" y="612" width="36" height="36"/>
+  <object id="4008" x="28872" y="504" width="36" height="36"/>
+  <object id="4009" x="28764" y="396" width="36" height="36"/>
+  <object id="4250" x="32328" y="288" width="36" height="36"/>
+  <object id="4252" x="32249.2" y="622.182" width="36" height="36"/>
+  <object id="4255" x="32328" y="720" width="36" height="36"/>
+  <object id="4256" x="32418.9" y="876.485" width="36" height="36"/>
+  <object id="4257" x="31680" y="504" width="36" height="36"/>
+  <object id="4258" x="31528.5" y="439.273" width="36" height="36"/>
+  <object id="4260" x="31680" y="720" width="36" height="36"/>
+  <object id="4261" x="31570.9" y="689.939" width="36" height="36"/>
+  <object id="4262" x="31940.6" y="861.333" width="36" height="36"/>
+  <object id="4263" x="31104" y="504" width="36" height="36"/>
+  <object id="4264" x="31104" y="612" width="36" height="36"/>
+  <object id="4265" x="31104" y="288" width="36" height="36"/>
+  <object id="4266" x="31104" y="720" width="36" height="36"/>
+  <object id="4267" x="31104" y="396" width="36" height="36"/>
+  <object id="4268" x="31104" y="828" width="36" height="36"/>
+  <object id="4289" x="29952" y="252" width="36" height="36"/>
+  <object id="4291" x="29952" y="360" width="36" height="36"/>
+  <object id="4292" x="29952" y="792" width="36" height="36"/>
+  <object id="4295" x="29952" y="252" width="36" height="36"/>
+  <object id="4297" x="29952" y="360" width="36" height="36"/>
+  <object id="4298" x="29952" y="792" width="36" height="36"/>
+  <object id="4404" x="35064" y="216" width="36" height="36"/>
+  <object id="4405" x="34668" y="216" width="36" height="36"/>
+  <object id="4406" x="34236" y="216" width="36" height="36"/>
+  <object id="4408" x="33840" y="216" width="36" height="36"/>
+  <object id="4481" x="27324" y="180" width="1260"/>
+  <object id="4483" x="27324" y="72" height="108"/>
+  <object id="4484" x="27216" y="864" width="936"/>
+  <object id="4485" x="25776" y="1008" width="1296"/>
+ </objectgroup>
+ <objectgroup name="EnBeta">
+  <object id="134" x="7236" y="108" width="36" height="36"/>
+  <object id="137" x="7236" y="936" width="36" height="36"/>
+  <object id="179" x="7380" y="864" width="36" height="36"/>
+  <object id="180" x="7524" y="792" width="36" height="36"/>
+  <object id="184" x="7380" y="180" width="36" height="36"/>
+  <object id="186" x="7524" y="252" width="36" height="36"/>
+  <object id="187" x="7668" y="324" width="36" height="36"/>
+  <object id="188" x="7668" y="720" width="36" height="36"/>
+  <object id="190" x="7812" y="648" width="36" height="36"/>
+  <object id="191" x="7812" y="396" width="36" height="36"/>
+  <object id="1860" x="8644" y="516" width="36" height="36"/>
+  <object id="1861" x="8528" y="392" width="36" height="36"/>
+  <object id="1862" x="7952" y="104" width="36" height="36"/>
+  <object id="1863" x="8240" y="788" width="36" height="36"/>
+  <object id="1864" x="8384" y="716" width="36" height="36"/>
+  <object id="1865" x="8096" y="176" width="36" height="36"/>
+  <object id="1866" x="8528" y="644" width="36" height="36"/>
+  <object id="1867" x="8096" y="860" width="36" height="36"/>
+  <object id="1868" x="8240" y="248" width="36" height="36"/>
+  <object id="1869" x="7952" y="932" width="36" height="36"/>
+  <object id="1870" x="8384" y="320" width="36" height="36"/>
+  <object id="2421" x="11556" y="1008" width="36" height="36"/>
+  <object id="2422" x="11556" y="36" width="36" height="36"/>
+  <object id="2443" x="13248" y="828" width="36" height="36"/>
+  <object id="2444" x="13392" y="828" width="36" height="36"/>
+  <object id="2445" x="13104" y="828" width="36" height="36"/>
+  <object id="2446" x="12960" y="828" width="36" height="36"/>
+  <object id="2447" x="13248" y="144" width="36" height="36"/>
+  <object id="2448" x="13392" y="144" width="36" height="36"/>
+  <object id="2449" x="13104" y="144" width="36" height="36"/>
+  <object id="2450" x="12960" y="144" width="36" height="36"/>
+  <object id="2451" x="13248" y="468" width="36" height="36"/>
+  <object id="2452" x="13392" y="468" width="36" height="36"/>
+  <object id="2453" x="13104" y="468" width="36" height="36"/>
+  <object id="2454" x="12960" y="468" width="36" height="36"/>
+  <object id="2647" x="16632" y="864" width="36" height="36"/>
+  <object id="2841" x="17712" y="828" width="36" height="36"/>
+  <object id="4412" x="36288" y="252" width="36" height="36"/>
+  <object id="4415" x="36432" y="252" width="36" height="36"/>
+  <object id="4417" x="36576" y="252" width="36" height="36"/>
+  <object id="4419" x="36720" y="252" width="36" height="36"/>
+  <object id="4420" x="37008" y="252" width="36" height="36"/>
+  <object id="4422" x="37152" y="252" width="36" height="36"/>
+  <object id="4423" x="36864" y="252" width="36" height="36"/>
+  <object id="4424" x="37296" y="252" width="36" height="36"/>
+  <object id="4425" x="37440" y="252" width="36" height="36"/>
+  <object id="4427" x="36828" y="756" width="36" height="36"/>
+  <object id="4428" x="36972" y="756" width="36" height="36"/>
+  <object id="4430" x="36252" y="756" width="36" height="36"/>
+  <object id="4431" x="37548" y="756" width="36" height="36"/>
+  <object id="4432" x="37260" y="756" width="36" height="36"/>
+  <object id="4433" x="36540" y="756" width="36" height="36"/>
+  <object id="4434" x="36684" y="756" width="36" height="36"/>
+  <object id="4435" x="37116" y="756" width="36" height="36"/>
+  <object id="4436" x="36396" y="756" width="36" height="36"/>
+  <object id="4437" x="37404" y="756" width="36" height="36"/>
+  <object id="4441" x="33840" y="504" width="36" height="36"/>
+  <object id="4443" x="33840" y="864" width="36" height="36"/>
+ </objectgroup>
+ <objectgroup name="EnCharlie">
+  <object id="2646" x="16344" y="504" width="36" height="36"/>
+  <object id="2756" x="20916" y="504" width="36" height="36"/>
+  <object id="2757" x="19512" y="504" width="36" height="36"/>
+  <object id="2831" x="9720" y="504" width="36" height="36"/>
+  <object id="2839" x="17712" y="432" width="36" height="36"/>
+  <object id="4400" x="33588" y="612" width="36" height="36"/>
+  <object id="4401" x="34452" y="612" width="36" height="36"/>
+ </objectgroup>
+ <objectgroup name="EnDelta">
+  <object id="1655" x="13158" y="432" width="36" height="36"/>
+  <object id="1658" x="13158" y="504" width="36" height="36"/>
+  <object id="1659" x="13158" y="576" width="36" height="36"/>
+  <object id="1661" x="13086" y="468" width="36" height="36"/>
+  <object id="1662" x="13086" y="540" width="36" height="36"/>
+  <object id="1663" x="13014" y="504" width="36" height="36"/>
+  <object id="1687" x="10764" y="800" width="36" height="36"/>
+  <object id="1695" x="10980" y="800" width="36" height="36"/>
+  <object id="1696" x="11196" y="800" width="36" height="36"/>
+  <object id="2302" x="3204" y="684" width="36" height="36"/>
+  <object id="2303" x="3204" y="828" width="36" height="36"/>
+  <object id="2304" x="3096" y="756" width="36" height="36"/>
+  <object id="2375" x="6840" y="540" width="36" height="36"/>
+  <object id="2377" x="6912" y="504" width="36" height="36"/>
+  <object id="2378" x="6912" y="576" width="36" height="36"/>
+  <object id="2380" x="6984" y="468" width="36" height="36"/>
+  <object id="2381" x="6984" y="540" width="36" height="36"/>
+  <object id="2382" x="6984" y="612" width="36" height="36"/>
+  <object id="2383" x="7056" y="432" width="36" height="36"/>
+  <object id="2384" x="7056" y="504" width="36" height="36"/>
+  <object id="2385" x="7056" y="576" width="36" height="36"/>
+  <object id="2386" x="7056" y="648" width="36" height="36"/>
+  <object id="2415" x="11952" y="180" width="36" height="36"/>
+  <object id="2418" x="12024" y="252" width="36" height="36"/>
+  <object id="2419" x="12096" y="324" width="36" height="36"/>
+  <object id="2420" x="12168" y="396" width="36" height="36"/>
+  <object id="2547" x="9108" y="432" width="36" height="36"/>
+  <object id="2548" x="9108" y="504" width="36" height="36"/>
+  <object id="2549" x="9108" y="576" width="36" height="36"/>
+  <object id="2550" x="9108" y="648" width="36" height="36"/>
+  <object id="2551" x="9108" y="360" width="36" height="36"/>
+  <object id="2552" x="9108" y="720" width="36" height="36"/>
+  <object id="2554" x="9108" y="288" width="36" height="36"/>
+  <object id="2555" x="9108" y="792" width="36" height="36"/>
+  <object id="2635" x="16884" y="396" width="36" height="36"/>
+  <object id="2697" x="6480" y="108" width="36" height="36"/>
+  <object id="2698" x="6480" y="936" width="36" height="36"/>
+  <object id="2699" x="8424" y="108" width="36" height="36"/>
+  <object id="2700" x="8280" y="936" width="36" height="36"/>
+  <object id="2701" x="7524" y="504" width="36" height="36"/>
+  <object id="2702" x="4644" y="864" width="36" height="36"/>
+  <object id="2703" x="4248" y="180" width="36" height="36"/>
+  <object id="2706" x="14652" y="540" width="36" height="36"/>
+  <object id="2707" x="14796" y="108" width="36" height="36"/>
+  <object id="2708" x="14112" y="828" width="36" height="36"/>
+  <object id="2710" x="13860" y="252" width="36" height="36"/>
+  <object id="2712" x="6156" y="540" width="36" height="36"/>
+  <object id="2713" x="6048" y="504" width="36" height="36"/>
+  <object id="2714" x="6048" y="612" width="36" height="36"/>
+  <object id="2715" x="6156" y="576" width="36" height="36"/>
+  <object id="2738" x="10512" y="216" width="36" height="36"/>
+  <object id="2739" x="10512" y="792" width="36" height="36"/>
+  <object id="2758" x="21276" y="252" width="36" height="36"/>
+  <object id="2760" x="21384" y="756" width="36" height="36"/>
+  <object id="2761" x="20808" y="900" width="36" height="36"/>
+  <object id="2765" x="20556" y="432" width="36" height="36"/>
+  <object id="2766" x="20016" y="252" width="36" height="36"/>
+  <object id="2767" x="20052" y="792" width="36" height="36"/>
+  <object id="2768" x="19332" y="828" width="36" height="36"/>
+  <object id="2769" x="19224" y="324" width="36" height="36"/>
+  <object id="2770" x="18576" y="288" width="36" height="36"/>
+  <object id="2771" x="18720" y="828" width="36" height="36"/>
+  <object id="2774" x="18504" y="612" width="36" height="36"/>
+  <object id="2775" x="19296" y="540" width="36" height="36"/>
+  <object id="2776" x="20304" y="216" width="36" height="36"/>
+  <object id="2777" x="19764" y="648" width="36" height="36"/>
+  <object id="2778" x="19656" y="180" width="36" height="72"/>
+  <object id="2781" x="19080" y="720" width="36" height="36"/>
+  <object id="2782" x="18216" y="900" width="36" height="36"/>
+  <object id="3383" x="22906" y="166" width="36" height="36"/>
+  <object id="3384" x="23074" y="322" width="36" height="36"/>
+  <object id="3385" x="23262" y="442" width="36" height="36"/>
+  <object id="3386" x="23444" y="560" width="36" height="36"/>
+  <object id="3387" x="23604" y="654" width="36" height="36"/>
+  <object id="4046" x="30924" y="324" width="36" height="36"/>
+  <object id="4049" x="30888" y="360" width="36" height="36"/>
+  <object id="4051" x="30852" y="396" width="36" height="36"/>
+  <object id="4053" x="30816" y="432" width="36" height="36"/>
+  <object id="4055" x="30780" y="468" width="36" height="36"/>
+  <object id="4056" x="30744" y="504" width="36" height="36"/>
+  <object id="4057" x="30708" y="540" width="36" height="36"/>
+  <object id="4059" x="30744" y="576" width="36" height="36"/>
+  <object id="4060" x="30780" y="612" width="36" height="36"/>
+  <object id="4061" x="30816" y="648" width="36" height="36"/>
+  <object id="4063" x="30852" y="684" width="36" height="36"/>
+  <object id="4064" x="30888" y="720" width="36" height="36"/>
+  <object id="4067" x="30924" y="756" width="36" height="36"/>
+  <object id="4094" x="31428" y="504" width="36" height="36"/>
+  <object id="4097" x="31284" y="360" width="36" height="36"/>
+  <object id="4102" x="31248" y="324" width="36" height="36"/>
+  <object id="4104" x="31464" y="540" width="36" height="36"/>
+  <object id="4105" x="31320" y="396" width="36" height="36"/>
+  <object id="4106" x="31284" y="288" width="36" height="36"/>
+  <object id="4133" x="31428" y="936" width="36" height="36"/>
+  <object id="4134" x="31428" y="576" width="36" height="36"/>
+  <object id="4135" x="31392" y="900" width="36" height="36"/>
+  <object id="4136" x="31284" y="792" width="36" height="36"/>
+  <object id="4137" x="31392" y="612" width="36" height="36"/>
+  <object id="4141" x="31248" y="756" width="36" height="36"/>
+  <object id="4145" x="31284" y="720" width="36" height="36"/>
+  <object id="4146" x="32004" y="432" width="36" height="36"/>
+  <object id="4148" x="31968" y="396" width="36" height="36"/>
+  <object id="4149" x="31860" y="288" width="36" height="36"/>
+  <object id="4153" x="31932" y="360" width="36" height="36"/>
+  <object id="4154" x="31824" y="252" width="36" height="36"/>
+  <object id="4156" x="32040" y="468" width="36" height="36"/>
+  <object id="4157" x="31896" y="324" width="36" height="36"/>
+  <object id="4159" x="32004" y="648" width="36" height="36"/>
+  <object id="4162" x="31860" y="576" width="36" height="36"/>
+  <object id="4165" x="31896" y="468" width="36" height="36"/>
+  <object id="4167" x="31824" y="540" width="36" height="36"/>
+  <object id="4168" x="31932" y="360" width="36" height="36"/>
+  <object id="4170" x="31896" y="612" width="36" height="36"/>
+  <object id="4171" x="31860" y="504" width="36" height="36"/>
+  <object id="4173" x="32040" y="612" width="36" height="36"/>
+  <object id="4176" x="32004" y="648" width="36" height="36"/>
+  <object id="4178" x="31932" y="720" width="36" height="36"/>
+  <object id="4180" x="31860" y="792" width="36" height="36"/>
+  <object id="4181" x="31968" y="684" width="36" height="36"/>
+  <object id="4184" x="31896" y="756" width="36" height="36"/>
+  <object id="4201" x="32616" y="360" width="36" height="36"/>
+  <object id="4206" x="32580" y="324" width="36" height="36"/>
+  <object id="4209" x="32652" y="396" width="36" height="36"/>
+  <object id="4210" x="32616" y="288" width="36" height="36"/>
+  <object id="4214" x="32616" y="504" width="36" height="36"/>
+  <object id="4217" x="32652" y="396" width="36" height="36"/>
+  <object id="4219" x="32580" y="468" width="36" height="36"/>
+  <object id="4222" x="32652" y="540" width="36" height="36"/>
+  <object id="4223" x="32616" y="432" width="36" height="36"/>
+  <object id="4227" x="32616" y="648" width="36" height="36"/>
+  <object id="4230" x="32652" y="540" width="36" height="36"/>
+  <object id="4232" x="32580" y="612" width="36" height="36"/>
+  <object id="4235" x="32652" y="684" width="36" height="36"/>
+  <object id="4236" x="32616" y="576" width="36" height="36"/>
+  <object id="4240" x="32616" y="828" width="36" height="36"/>
+  <object id="4243" x="32652" y="720" width="36" height="36"/>
+  <object id="4245" x="32580" y="792" width="36" height="36"/>
+  <object id="4248" x="32652" y="864" width="36" height="36"/>
+  <object id="4249" x="32616" y="756" width="36" height="36"/>
+ </objectgroup>
+ <objectgroup name="EnEcho">
+  <object id="319" x="11718.7" y="72" width="39.3939" height="39.3939"/>
+  <object id="320" x="11103.5" y="181.091" width="39.3939" height="30.303"/>
+  <object id="321" x="11433.8" y="338.667" width="27.2727" height="24.2424"/>
+  <object id="325" x="11809.6" y="468.97" width="39.3939" height="45.4545"/>
+  <object id="329" x="12902.5" y="900" width="42.4242" height="45.4545"/>
+  <object id="330" x="13151" y="145.455" width="39.3939" height="27.2727"/>
+  <object id="331" x="13875.2" y="766.667" width="30.303" height="36.3636"/>
+  <object id="332" x="14078.2" y="136.364" width="45.4545" height="39.3939"/>
+  <object id="336" x="12747.4" y="556.666" width="36" height="36"/>
+  <object id="338" x="12783.4" y="628.666" width="36" height="36"/>
+  <object id="344" x="12855.4" y="628.666" width="36" height="36"/>
+  <object id="345" x="12891.4" y="556.666" width="36" height="36"/>
+  <object id="350" x="12819.4" y="700.666" width="36" height="36"/>
+  <object id="369" x="12816" y="324" width="36" height="36"/>
+  <object id="370" x="12744" y="468" width="36" height="36"/>
+  <object id="371" x="12888" y="468" width="36" height="36"/>
+  <object id="372" x="12852" y="396" width="36" height="36"/>
+  <object id="374" x="12780" y="396" width="36" height="36"/>
+  <object id="375" x="15552" y="465.394" width="36" height="36"/>
+  <object id="376" x="15608" y="531.394" width="36" height="36"/>
+  <object id="377" x="15678" y="595.394" width="36" height="36"/>
+  <object id="378" x="15608" y="393.394" width="36" height="36"/>
+  <object id="379" x="15672" y="343.394" width="36" height="36"/>
+  <object id="2325" x="4464" y="108" width="36" height="36"/>
+  <object id="2326" x="4248" y="936" width="36" height="36"/>
+  <object id="2327" x="5306" y="574" width="36" height="36"/>
+  <object id="2336" x="4428" y="684" width="36" height="36"/>
+  <object id="2388" x="6696" y="252" width="36" height="36"/>
+  <object id="2389" x="6768" y="252" width="36" height="36"/>
+  <object id="2390" x="6840" y="252" width="36" height="36"/>
+  <object id="2391" x="6912" y="252" width="36" height="36"/>
+  <object id="2392" x="6624" y="252" width="36" height="36"/>
+  <object id="2393" x="6912" y="288" width="36" height="36"/>
+  <object id="2394" x="6768" y="288" width="36" height="36"/>
+  <object id="2395" x="6840" y="324" width="36" height="36"/>
+  <object id="2396" x="6984" y="288" width="36" height="36"/>
+  <object id="2397" x="7056" y="288" width="36" height="36"/>
+  <object id="2398" x="6912" y="216" width="36" height="36"/>
+  <object id="2399" x="6768" y="216" width="36" height="36"/>
+  <object id="2400" x="6840" y="180" width="36" height="36"/>
+  <object id="2401" x="6984" y="216" width="36" height="36"/>
+  <object id="2402" x="7056" y="216" width="36" height="36"/>
+  <object id="2413" x="11376" y="108" width="36" height="36"/>
+  <object id="2414" x="10944" y="576" width="36" height="36"/>
+  <object id="2460" x="15894" y="936" width="36" height="36"/>
+  <object id="2461" x="15824" y="872" width="36" height="36"/>
+  <object id="2462" x="15888" y="684" width="36" height="36"/>
+  <object id="2463" x="15824" y="734" width="36" height="36"/>
+  <object id="2464" x="15768" y="806" width="36" height="36"/>
+  <object id="2465" x="15930" y="396" width="36" height="36"/>
+  <object id="2466" x="15860" y="332" width="36" height="36"/>
+  <object id="2467" x="15924" y="144" width="36" height="36"/>
+  <object id="2468" x="15860" y="194" width="36" height="36"/>
+  <object id="2469" x="15804" y="266" width="36" height="36"/>
+  <object id="2530" x="7742" y="914" width="36" height="36"/>
+  <object id="2531" x="7814" y="878" width="36" height="36"/>
+  <object id="2532" x="7814" y="950" width="36" height="36"/>
+  <object id="2533" x="8182" y="512" width="36" height="36"/>
+  <object id="2534" x="8254" y="476" width="36" height="36"/>
+  <object id="2535" x="8254" y="548" width="36" height="36"/>
+  <object id="2536" x="8480" y="908" width="36" height="36"/>
+  <object id="2537" x="8552" y="872" width="36" height="36"/>
+  <object id="2538" x="8552" y="944" width="36" height="36"/>
+  <object id="2539" x="7740" y="198" width="36" height="36"/>
+  <object id="2540" x="7812" y="162" width="36" height="36"/>
+  <object id="2541" x="7812" y="234" width="36" height="36"/>
+  <object id="2559" x="4680" y="288" width="36" height="36"/>
+  <object id="2576" x="5619.4" y="880.666" width="36" height="36"/>
+  <object id="2577" x="5652" y="576" width="36" height="36"/>
+  <object id="2578" x="5691.4" y="880.666" width="36" height="36"/>
+  <object id="2579" x="5688" y="648" width="36" height="36"/>
+  <object id="2580" x="5655.4" y="952.666" width="36" height="36"/>
+  <object id="2581" x="5580" y="720" width="36" height="36"/>
+  <object id="2582" x="5616" y="648" width="36" height="36"/>
+  <object id="2583" x="5727.4" y="808.666" width="36" height="36"/>
+  <object id="2584" x="5583.4" y="808.666" width="36" height="36"/>
+  <object id="2585" x="5724" y="720" width="36" height="36"/>
+  <object id="2586" x="15162.9" y="368.03" width="36" height="36"/>
+  <object id="2587" x="15195.5" y="63.364" width="36" height="36"/>
+  <object id="2588" x="15234.9" y="368.03" width="36" height="36"/>
+  <object id="2589" x="15231.5" y="135.364" width="36" height="36"/>
+  <object id="2590" x="15198.9" y="440.03" width="36" height="36"/>
+  <object id="2591" x="15123.5" y="207.364" width="36" height="36"/>
+  <object id="2592" x="15159.5" y="135.364" width="36" height="36"/>
+  <object id="2593" x="15270.9" y="296.03" width="36" height="36"/>
+  <object id="2594" x="15126.9" y="296.03" width="36" height="36"/>
+  <object id="2595" x="15267.5" y="207.364" width="36" height="36"/>
+  <object id="2596" x="15303.4" y="628.666" width="36" height="36"/>
+  <object id="2597" x="15336" y="324" width="36" height="36"/>
+  <object id="2598" x="15375.4" y="628.666" width="36" height="36"/>
+  <object id="2599" x="15372" y="396" width="36" height="36"/>
+  <object id="2600" x="15339.4" y="700.666" width="36" height="36"/>
+  <object id="2601" x="15264" y="468" width="36" height="36"/>
+  <object id="2602" x="15300" y="396" width="36" height="36"/>
+  <object id="2603" x="15411.4" y="556.666" width="36" height="36"/>
+  <object id="2604" x="15267.4" y="556.666" width="36" height="36"/>
+  <object id="2605" x="15408" y="468" width="36" height="36"/>
+  <object id="2616" x="15123.4" y="808.666" width="36" height="36"/>
+  <object id="2617" x="15156" y="504" width="36" height="36"/>
+  <object id="2618" x="15195.4" y="808.666" width="36" height="36"/>
+  <object id="2619" x="15192" y="576" width="36" height="36"/>
+  <object id="2620" x="15159.4" y="880.666" width="36" height="36"/>
+  <object id="2621" x="15084" y="648" width="36" height="36"/>
+  <object id="2622" x="15120" y="576" width="36" height="36"/>
+  <object id="2623" x="15231.4" y="736.666" width="36" height="36"/>
+  <object id="2624" x="15087.4" y="736.666" width="36" height="36"/>
+  <object id="2625" x="15228" y="648" width="36" height="36"/>
+  <object id="2634" x="16488" y="144" width="36" height="36"/>
+  <object id="2643" x="16596" y="648" width="36" height="36"/>
+  <object id="2681" x="6840" y="900" width="36" height="36"/>
+  <object id="2682" x="6768" y="864" width="36" height="36"/>
+  <object id="2683" x="6912" y="792" width="36" height="36"/>
+  <object id="2684" x="6768" y="828" width="36" height="36"/>
+  <object id="2685" x="6768" y="792" width="36" height="36"/>
+  <object id="2686" x="6984" y="864" width="36" height="36"/>
+  <object id="2687" x="6624" y="828" width="36" height="36"/>
+  <object id="2688" x="7056" y="792" width="36" height="36"/>
+  <object id="2689" x="7056" y="864" width="36" height="36"/>
+  <object id="2690" x="6696" y="828" width="36" height="36"/>
+  <object id="2691" x="6912" y="864" width="36" height="36"/>
+  <object id="2692" x="6984" y="792" width="36" height="36"/>
+  <object id="2693" x="6840" y="828" width="36" height="36"/>
+  <object id="2694" x="6912" y="828" width="36" height="36"/>
+  <object id="2695" x="6840" y="756" width="36" height="36"/>
+  <object id="2744" x="10656" y="72" width="36" height="36"/>
+  <object id="2746" x="10800" y="1008" width="36" height="36"/>
+  <object id="2747" x="10944" y="324" width="36" height="36"/>
+  <object id="2748" x="11556" y="828" width="36" height="36"/>
+  <object id="2783" x="19836" y="936" width="36" height="36"/>
+  <object id="2784" x="19368" y="144" width="36" height="36"/>
+  <object id="2785" x="18756" y="648" width="36" height="36"/>
+  <object id="2786" x="20448" y="720" width="36" height="36"/>
+  <object id="2787" x="20628" y="288" width="36" height="36"/>
+  <object id="2789" x="21132" y="828" width="36" height="36"/>
+  <object id="2790" x="21312" y="504" width="36" height="36"/>
+  <object id="2791" x="20880" y="144" width="36" height="36"/>
+  <object id="2792" x="20736" y="684" width="36" height="36"/>
+  <object id="2793" x="20304" y="1008" width="36" height="36"/>
+  <object id="2794" x="19512" y="972" width="36" height="36"/>
+  <object id="2795" x="19116" y="972" width="36" height="36"/>
+  <object id="2796" x="18936" y="288" width="36" height="36"/>
+  <object id="2798" x="19872" y="432" width="36" height="36"/>
+  <object id="2799" x="18180" y="684" width="72" height="36"/>
+  <object id="3376" x="22338" y="468" width="36" height="36"/>
+  <object id="3379" x="22514" y="506" width="36" height="36"/>
+  <object id="3380" x="22688" y="562" width="36" height="36"/>
+  <object id="3381" x="22842" y="640" width="36" height="36"/>
+  <object id="3382" x="22990" y="704" width="36" height="36"/>
+  <object id="3928" x="26424" y="180"/>
+  <object id="3930" x="26028" y="288"/>
+  <object id="3931" x="26784" y="288"/>
+  <object id="3933" x="26784" y="180"/>
+  <object id="3935" x="26028" y="180"/>
+  <object id="3936" x="26424" y="288"/>
+  <object id="3937" x="26784" y="828"/>
+  <object id="3938" x="26424" y="936"/>
+  <object id="3939" x="26784" y="936"/>
+  <object id="3941" x="26028" y="828"/>
+  <object id="3942" x="26028" y="720"/>
+  <object id="3943" x="26784" y="720"/>
+  <object id="3944" x="26028" y="936"/>
+  <object id="3946" x="26424" y="828"/>
+  <object id="3948" x="26424" y="720"/>
+  <object id="4302" x="28764" y="612" width="36" height="36"/>
+  <object id="4306" x="28764" y="720" width="36" height="36"/>
+  <object id="4308" x="28764" y="504" width="36" height="36"/>
+  <object id="4313" x="28620" y="504" width="36" height="36"/>
+  <object id="4317" x="28872" y="720" width="36" height="36"/>
+  <object id="4318" x="29304" y="144" width="36" height="36"/>
+  <object id="4319" x="29520" y="792" width="36" height="36"/>
+  <object id="4320" x="29556" y="396" width="36" height="36"/>
+  <object id="4321" x="30240" y="612" width="36" height="36"/>
+  <object id="4322" x="30420" y="288" width="36" height="36"/>
+  <object id="4323" x="30600" y="792" width="36" height="36"/>
+  <object id="4324" x="30132" y="936" width="36" height="36"/>
+  <object id="4487" x="33984" y="360" width="36" height="36"/>
+  <object id="4488" x="34200" y="468" width="36" height="36"/>
+  <object id="4489" x="33660" y="720" width="36" height="36"/>
+  <object id="4491" x="34812" y="324" width="36" height="36"/>
+  <object id="4493" x="34632" y="720" width="36" height="36"/>
+  <object id="4495" x="35460" y="324" width="36" height="36"/>
+  <object id="4496" x="35676" y="648" width="36" height="36"/>
+  <object id="4498" x="34164" y="720" width="36" height="36"/>
+ </objectgroup>
+ <objectgroup name="EnFanta">
+  <object id="382" x="14526" y="180" width="36" height="36"/>
+  <object id="383" x="14166" y="468" width="36" height="36"/>
+  <object id="384" x="13482" y="972" width="36" height="36"/>
+  <object id="385" x="12870" y="72" width="36" height="36"/>
+  <object id="386" x="11844" y="908" width="36" height="36"/>
+  <object id="387" x="5040" y="180" width="36" height="36"/>
+  <object id="393" x="5112" y="180" width="36" height="36"/>
+  <object id="395" x="5076" y="216" width="36" height="36"/>
+  <object id="396" x="5040" y="252" width="36" height="36"/>
+  <object id="397" x="5112" y="252" width="36" height="36"/>
+  <object id="398" x="5076" y="288" width="36" height="36"/>
+  <object id="399" x="5040" y="324" width="36" height="36"/>
+  <object id="400" x="5112" y="324" width="36" height="36"/>
+  <object id="401" x="5076" y="360" width="36" height="36"/>
+  <object id="402" x="5040" y="396" width="36" height="36"/>
+  <object id="403" x="5112" y="396" width="36" height="36"/>
+  <object id="415" x="5040" y="468" width="36" height="36"/>
+  <object id="416" x="5076" y="504" width="36" height="36"/>
+  <object id="417" x="5112" y="612" width="36" height="36"/>
+  <object id="418" x="5076" y="576" width="36" height="36"/>
+  <object id="419" x="5040" y="540" width="36" height="36"/>
+  <object id="420" x="5112" y="468" width="36" height="36"/>
+  <object id="421" x="5076" y="432" width="36" height="36"/>
+  <object id="422" x="5040" y="612" width="36" height="36"/>
+  <object id="423" x="5112" y="540" width="36" height="36"/>
+  <object id="424" x="5040" y="684" width="36" height="36"/>
+  <object id="425" x="5076" y="720" width="36" height="36"/>
+  <object id="426" x="5112" y="828" width="36" height="36"/>
+  <object id="427" x="5076" y="792" width="36" height="36"/>
+  <object id="428" x="5040" y="756" width="36" height="36"/>
+  <object id="429" x="5112" y="684" width="36" height="36"/>
+  <object id="430" x="5076" y="648" width="36" height="36"/>
+  <object id="431" x="5040" y="828" width="36" height="36"/>
+  <object id="432" x="5112" y="756" width="36" height="36"/>
+  <object id="434" x="7928" y="520" width="36" height="36"/>
+  <object id="439" x="14346" y="720" width="36" height="36"/>
+  <object id="441" x="14310" y="756" width="36" height="36"/>
+  <object id="442" x="14346" y="756" width="36" height="36"/>
+  <object id="443" x="14382" y="756" width="36" height="36"/>
+  <object id="448" x="14346" y="792" width="36" height="36"/>
+  <object id="1611" x="14429.3" y="814" width="36" height="36"/>
+  <object id="1612" x="14393.3" y="814" width="36" height="36"/>
+  <object id="1615" x="14393.3" y="850" width="36" height="36"/>
+  <object id="1617" x="14357.3" y="814" width="36" height="36"/>
+  <object id="1618" x="14393.3" y="778" width="36" height="36"/>
+  <object id="1635" x="14415" y="876" width="36" height="36"/>
+  <object id="1637" x="14487" y="876" width="36" height="36"/>
+  <object id="1638" x="14451" y="840" width="36" height="36"/>
+  <object id="1639" x="14451" y="876" width="36" height="36"/>
+  <object id="1641" x="14451" y="912" width="36" height="36"/>
+  <object id="1642" x="12922" y="998" width="36" height="36"/>
+  <object id="1643" x="12922" y="962" width="36" height="36"/>
+  <object id="1644" x="12994" y="998" width="36" height="36"/>
+  <object id="1645" x="12994" y="962" width="36" height="36"/>
+  <object id="1646" x="12958" y="926" width="36" height="36"/>
+  <object id="1647" x="12958" y="962" width="36" height="36"/>
+  <object id="1648" x="12994" y="926" width="36" height="36"/>
+  <object id="1649" x="12958" y="998" width="36" height="36"/>
+  <object id="2312" x="3896" y="108" width="36" height="36"/>
+  <object id="2313" x="3860" y="144" width="36" height="36"/>
+  <object id="2314" x="3932" y="144" width="36" height="36"/>
+  <object id="2315" x="3896" y="180" width="36" height="36"/>
+  <object id="2316" x="4028" y="536" width="36" height="36"/>
+  <object id="2317" x="4100" y="536" width="36" height="36"/>
+  <object id="2318" x="4064" y="572" width="36" height="36"/>
+  <object id="2319" x="4064" y="500" width="36" height="36"/>
+  <object id="2320" x="3852" y="918" width="36" height="36"/>
+  <object id="2321" x="3924" y="918" width="36" height="36"/>
+  <object id="2322" x="3888" y="954" width="36" height="36"/>
+  <object id="2323" x="3888" y="882" width="36" height="36"/>
+  <object id="2403" x="11592" y="648" width="36" height="36"/>
+  <object id="2404" x="11592" y="576" width="36" height="36"/>
+  <object id="2405" x="11520" y="612" width="36" height="36"/>
+  <object id="2638" x="17028" y="216" width="36" height="36"/>
+  <object id="2639" x="17100" y="468" width="36" height="36"/>
+  <object id="2640" x="16884" y="792" width="36" height="36"/>
+  <object id="2655" x="17064" y="864" width="36" height="36"/>
+  <object id="2656" x="17064" y="828" width="36" height="36"/>
+  <object id="2658" x="17064" y="792" width="36" height="36"/>
+  <object id="2659" x="17064" y="756" width="36" height="36"/>
+  <object id="2660" x="17064" y="720" width="36" height="36"/>
+  <object id="2661" x="17100" y="756" width="36" height="36"/>
+  <object id="2662" x="17100" y="792" width="36" height="36"/>
+  <object id="2663" x="17100" y="828" width="36" height="36"/>
+  <object id="2664" x="17136" y="792" width="36" height="36"/>
+  <object id="3349" x="22114" y="266" width="36" height="36"/>
+  <object id="3356" x="22206" y="198" width="36" height="36"/>
+  <object id="3357" x="22206" y="342" width="36" height="36"/>
+  <object id="3364" x="22120" y="656" width="36" height="36"/>
+  <object id="3371" x="22200" y="582" width="36" height="36"/>
+  <object id="3372" x="22200" y="726" width="36" height="36"/>
+  <object id="3893" x="25848" y="540"/>
+  <object id="3894" x="25848" y="432"/>
+  <object id="3896" x="25848" y="648"/>
+  <object id="3899" x="25848" y="324"/>
+  <object id="3950" x="27540" y="684"/>
+  <object id="3952" x="27540" y="360"/>
+  <object id="3953" x="27144" y="576"/>
+  <object id="3954" x="27144" y="468"/>
+  <object id="3955" x="27900" y="468"/>
+  <object id="3957" x="27900" y="360"/>
+  <object id="3959" x="27144" y="360"/>
+  <object id="3960" x="27540" y="468"/>
+  <object id="3961" x="28008" y="648"/>
+  <object id="3962" x="27648" y="756"/>
+  <object id="3964" x="27648" y="432"/>
+  <object id="3965" x="27252" y="648"/>
+  <object id="3968" x="27252" y="756"/>
+  <object id="3969" x="28008" y="432"/>
+  <object id="3970" x="27648" y="648"/>
+  <object id="3971" x="27252" y="432"/>
+  <object id="3973" x="28152" y="684"/>
+  <object id="3979" x="28152" y="576"/>
+  <object id="3982" x="27792" y="684"/>
+ </objectgroup>
+ <objectgroup name="EnGamma">
+  <object id="2668" x="12276" y="180" width="36" height="36"/>
+  <object id="2670" x="12276" y="504" width="36" height="36"/>
+  <object id="2671" x="12276" y="828" width="36" height="36"/>
+  <object id="2675" x="11988" y="504" width="36" height="36"/>
+  <object id="2678" x="11196" y="432" width="36" height="36"/>
+  <object id="3340" x="21740" y="476" width="36" height="36"/>
+  <object id="3344" x="21820" y="246" width="36" height="36"/>
+  <object id="3348" x="21830" y="698" width="36" height="36"/>
+  <object id="4455" x="36504" y="216" width="36" height="36"/>
+  <object id="4456" x="37440" y="396" width="36" height="36"/>
+  <object id="4457" x="37044" y="864" width="36" height="36"/>
+  <object id="4459" x="35784" y="720" width="36" height="36"/>
+  <object id="4461" x="35712" y="468" width="36" height="36"/>
+  <object id="4462" x="38052" y="252" width="36" height="36"/>
+  <object id="4463" x="38052" y="828" width="36" height="36"/>
+  <object id="4464" x="36396" y="540" width="36" height="36"/>
+  <object id="4466" x="34452" y="360" width="36" height="36"/>
+  <object id="4467" x="33660" y="828" width="36" height="36"/>
+  <object id="4468" x="35280" y="864" width="36" height="36"/>
+  <object id="4469" x="33588" y="360" width="36" height="36"/>
+  <object id="4470" x="32112" y="360" width="36" height="36"/>
+  <object id="4471" x="31572" y="792" width="36" height="36"/>
+  <object id="4472" x="31284" y="468" width="36" height="36"/>
+  <object id="4473" x="30924" y="504" width="36" height="36"/>
+  <object id="4474" x="30168" y="324" width="36" height="36"/>
+  <object id="4475" x="29412" y="900" width="36" height="36"/>
+  <object id="4476" x="29268" y="540" width="36" height="36"/>
+  <object id="4477" x="28404" y="504" width="36" height="36"/>
+  <object id="4478" x="27864" y="252" width="36" height="36"/>
+  <object id="4479" x="27036" y="828" width="36" height="36"/>
+ </objectgroup>
+ <objectgroup name="EnBoss1">
+  <object id="4480" x="38520" y="504" width="36" height="36"/>
+ </objectgroup>
+ <objectgroup name="Level2">
+  <object id="4500" x="39096" y="432" width="252" height="36"/>
+  <object id="4501" x="39096" y="684" width="252" height="36"/>
+  <object id="4502" x="39348" y="504" width="36" height="180"/>
+ </objectgroup>
+</map>
